@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->decimal('total');
             $table->string('product_title');
-            $table->string(column: 'user');
+            $table->string('user');
             $table->timestamps();
         });
     }
