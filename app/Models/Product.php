@@ -10,3 +10,4 @@ class Product extends Model
     use HasFactory;
     protected $table = "products";
     // protected $guarded = false;   // не актуально так как в AppServiceProvider добавлена Model::Unguard(
+}

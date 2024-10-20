@@ -17,8 +17,8 @@ return new class extends Migration
             $table->decimal('price');
             $table->text('description');
             $table->string('category');
-            $table->string(column: 'doctor');
-            $table->decimal(column: 'price_with_desc');
+            $table->string('doctor');
+            $table->decimal('price_with_disc');
             $table->timestamps();
         });
     }
